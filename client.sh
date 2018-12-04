@@ -6,7 +6,7 @@
 # Copyright (C) 2018
 
 
-# This is a Powershell client for ThunderDNS tool.
+# This is a Bash client for ThunderDNS tool.
 # It can forward TCP traffic over DNS protocol.
 
 
