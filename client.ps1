@@ -13,7 +13,7 @@
     Optional parameter. Your DNS server address. May be "localhost" to tests. If not provided, client uses standard
         system DNS-server.
 .NOTES
-  Author:         FBK CyberSecurity [Sergey Migalin]
+  Author:         FBK CyberSecurity [ by Sergey Migalin]
   Creation Date:  August, 2018
   
 .EXAMPLE
@@ -299,7 +299,6 @@ Function Tun{
 
 #-----------------------------------------------------------[Execution]------------------------------------------------------------
 
-
 Write-Host ' ________________               _________         _______________   _________' -ForegroundColor Yellow -BackgroundColor Black
 Write-Host ' ___/__  __/__/ /_____  ______________/ /______________/ __ \__/ | / //_ ___/' -ForegroundColor Yellow -BackgroundColor Black
 Write-Host ' _____/ /____/ __ \  / / /_/ __ \/ __  /_/ _ \_/ __/ _/ / / /_/  |/ //____ \ ' -ForegroundColor Yellow -BackgroundColor Black
@@ -319,7 +318,6 @@ if (!$domain -or !$clientname){
 
 
 Write-Host "DNSTunnel v$sScriptVersion was started" -ForegroundColor Yellow -BackgroundColor Black
-
 
 
 Write-Host "Domain to forward: $domain" -ForegroundColor Cyan -BackgroundColor Black

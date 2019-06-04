@@ -1,6 +1,6 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
-# @author: FBK CyberSecurity [Andrey Skuratov]
+# @author: FBK CyberSecurity [ by Andrey Skuratov]
 # @contact: https://fbkcs.ru
 # @license Apache License, Version 2.0
 # Copyright (C) 2018
@@ -147,7 +147,7 @@ reply()
 
 
 ###########################
-# Some argparser
+# Some argparser		  #
 ###########################
 
 if [ $# -lt 1 ]

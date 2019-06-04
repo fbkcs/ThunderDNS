@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.6
 # -*- coding: utf-8 -*-
 """
-@author: FBK CyberSecurity [Sergey Migalin & Andrey Skuratov]
+@author: FBK CyberSecurity [ by Sergey Migalin & Andrey Skuratov]
 @contact: https://fbkcs.ru
 @license Apache License, Version 2.0
 Copyright (C) 2018
@@ -33,7 +33,6 @@ SOCKS_VERSION = 5
 
 class ThreadingTCPServer(ThreadingMixIn, TCPServer):
     pass
-
 
 class SocksProxy(StreamRequestHandler):
     """
